@@ -1,8 +1,8 @@
 const ArchitectureSection = () => {
   return (
     <section className="bg-background py-16 transition-colors duration-300">
-      <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-8 text-foreground">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 relative z-10 rounded-lg shadow-medium text-3xl font-bold text-center mb-8 text-foreground py-2">
           <strong>Grounded_Teacher</strong> Architecture
         </h2>
         
@@ -67,11 +67,11 @@ marks achieving a new state-of-the-art (SOTA) of 50.8 mAP in natural images for 
           </p>
         </div>
 
-        <div className="text-center animate-fade-in">
+        <div className="text-center animate-fade-in relative z-10">
           <img 
-            src="images/1mg1.png"
+            src="images/image04.jpeg"
             alt="Grounded teacher Architecture" 
-            className="w-full max-w-4xl mx-auto rounded-lg shadow-medium hover-scale transition-all duration-300"
+            className="w-full max-w-6xl mx-auto rounded-lg shadow-medium hover-scale transition-all duration-300"
           />
         </div>
       </div>

@@ -1,16 +1,17 @@
+
 const ResultsSection = () => {
   return (
     <section className="bg-background py-16 transition-colors duration-300">
-      <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-sky-400 relative z-10 shadow-medium rounded-lg text-3xl font-bold text-center mb-12 text-foreground py-2">
           Quantitative Results on Datasets
         </h2>
         
         {/* Evaluation Metric */}
         <div className="mb-12">
-          <h3 className="text-2xl font-semibold mb-6 text-foreground">Evaluation Metric</h3>
+          <h3 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 text-2xl relative z-10 font-semibold mb-6 text-foreground py-2 rounded-lg">Evaluation Metric</h3>
           <div className="prose prose-lg max-w-none text-justify leading-relaxed text-foreground">
-            <p className="mb-4">
+            <p className="mb-4 ">
                We evaluate the performance of our proposed Grounded Teacher (GT) method against other approaches on all three medical benchmarks and
  the natural benchmark mentioned earlier for generalizability.Since UDA and SFDOAD sharesimilar task settings, we conducted comparisons with
  both.Table <span> 1</span>,Table 2and Table3 present the comparison results onmedical image datasets.Table 4 presents comparison of the natural
@@ -29,21 +30,22 @@ const ResultsSection = () => {
         {/* Results Table */}
         <div className="text-center mb-16 space-y-8">
   <img 
-    src="images/t12.png" 
+    src="images/newimage1.png.jpg" 
     alt="Quantitative Results Table 1" 
-    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
+    className="w-full max-w-6xl mx-auto rounded-lg shadow-md hover-scale relative z-10 mb-4" 
   />
+  <br/>
   <img 
-    src="images/t34.png" 
+    src="images/newimage2.png.jpg" 
     alt="Quantitative Results Table 2" 
-    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
+    className="w-full max-w-6xl mx-auto rounded-lg shadow-md hover-scale relative z-10 mb-4" 
   />
 </div>
 
 
         {/* Qualitative Results */}
         <div>
-          <h3 className="text-2xl font-semibold mb-6 text-foreground">Quantitative Results</h3>
+          <h3 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 relative z-10 rounded-md shadow-medium text-2xl font-semibold mb-6 text-foreground py-2">Quantitative Results</h3>
           <div className="mb-8">
             <p className="text-muted-foreground leading-relaxed">
                 Figure 5 presents the qualitative outcomes of our method, comparing predictions from baseline
@@ -60,14 +62,14 @@ scale objects. Also in Fig 5, we show how qualitatively the predictions are impr
           
           <div className="text-center">
             <img 
-              src="images/img5.png" 
+              src="images/image01.jpeg" 
               alt="Qualitative Results Comparison" 
-              className="w-full max-w-5xl mx-auto rounded-lg shadow-medium"
+              className="w-full max-w-6xl mx-auto rounded-lg shadow-medium hover-scale relative z-10 mb-12 "
             />
             <img 
     src="images/fig3.png" 
     alt="Quantitative Results Table 2" 
-    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
+    className="w-full max-w-6xl mx-auto rounded-lg shadow-medium hover-scale relative z-10 mb-10" 
   />
   <div className="text-center">
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">

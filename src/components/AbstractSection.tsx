@@ -1,11 +1,11 @@
 const AbstractSection = () => {
   return (
-    <section className="bg-muted/30 py-16 transition-colors duration-300">
-      <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-8 text-foreground animate-fade-in">Abstract</h2>
+    <section className=" py-16 transition-colors duration-300">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 relative z-10 rounded-lg shadow-medium text-black text-3xl py-2 font-bold text-center mb-8 text-foreground animate-fade-in">Abstract</h2>
         
         <div className="prose prose-lg max-w-none text-justify leading-relaxed text-foreground animate-fade-in">
-          <p className="mb-4">
+          <p className="mb-2">
             In the field of medical imaging, several approaches have leveraged semi-supervised student-teacher
  architectures to bridge domain discrepancy. Context imbalance in labeled training data, coupled with
  significant domain shifts between domains, can lead to biased teacher models that produce inaccurate
@@ -22,11 +22,6 @@ const AbstractSection = () => {
  supported by comprehensive ablation studies. All relevant resources, including preprocessed data,
  trained model weights, and code, are publicly available  
           </p>
-          
-        
-          
-        
-        
         </div>
       </div>
     </section>

@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="bg-background border-b border-border transition-colors duration-300">
-      <div className="relative max-w-5xl mx-auto px-6 pt-16 pb-10 sm:pt-20">
+      <div className="relative max-w-7xl mx-auto px-6 pt-16 pb-10 sm:pt-20">
 
         {/* Logo */}
         <div className="flex justify-center mb-6">
@@ -26,15 +26,15 @@ const Header = () => {
 
         {/* Title */}
         <div className="text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-tight animate-fade-in mb-6">
-            <span className="text-primary font-extrabold">Grounded_Teacher</span>: Context Aware<br />
+          <h1 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-sky-200 rounded-lg shadow-medium text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-tight py-2 animate-fade-in mb-6 hover-scale">
+            <span className="text-primary font-extrabold">Grounded_Teacher</span>:  Context Aware <br />
             Grounded Teacher for Source Free Object Detection
           </h1>
         </div>
 
         {/* Authors */}
         <div className="text-center mb-10 space-y-3">
-          <div className="text-lg text-muted-foreground flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
+          <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-sky-100 text-lg text-muted-foreground flex flex-wrap justify-center rounded-md py-2 items-center gap-x-2 gap-y-1">
             <a href="https://www.tajamulashraf.com/" className="text-primary hover:underline">Tajamul Ashraf<sup>1,2*</sup></a>,
             <a href="https://linkedin.com/in/rajes-manna-489110212" className="text-primary hover:underline">Rajes Manna<sup>4†</sup></a>,
             <a href="https://psindiap.github.io/" className="text-primary hover:underline">Partha Sarathi Purkayastha<sup>3†</sup></a>,
