@@ -9,7 +9,7 @@ const ResultsSection = () => {
         
         {/* Evaluation Metric */}
         <div className="mb-12">
-          <h3 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 text-2xl relative z-10 font-semibold mb-6 text-foreground py-2 rounded-lg">Evaluation Metric</h3>
+          <h3 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 text-2xl px-4 relative z-10 font-semibold mb-6 text-foreground py-2 rounded-lg">Evaluation Metric</h3>
           <div className="prose prose-lg max-w-none text-justify leading-relaxed text-foreground">
             <p className="mb-4 ">
                We evaluate the performance of our proposed Grounded Teacher (GT) method against other approaches on all three medical benchmarks and
@@ -45,7 +45,7 @@ const ResultsSection = () => {
 
         {/* Qualitative Results */}
         <div>
-          <h3 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 relative z-10 rounded-md shadow-medium text-2xl font-semibold mb-6 text-foreground py-2">Quantitative Results</h3>
+          <h3 className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 px-4 relative z-10 rounded-md shadow-medium text-2xl font-semibold mb-6 text-foreground py-2">Quantitative Results</h3>
           <div className="mb-8">
             <p className="text-muted-foreground leading-relaxed">
                 Figure 5 presents the qualitative outcomes of our method, comparing predictions from baseline
